@@ -10,19 +10,19 @@ export default function Navbar() {
                             <a href="/" className="text-xl text-gray-300 font-semibold">Home</a>
                         </li>
                         <li className="p-2 ml-4">
-                            <a href="/" className="text-xl text-gray-300 font-semibold">About</a>
+                            <a href="/about" className="text-xl text-gray-300 font-semibold">About</a>
                         </li>
                         <li className="p-2 ml-4">
                             <a href="/blog" className="text-xl text-gray-300 font-semibold">Blog</a>
                         </li>
                         <li className="p-2 ml-4">
-                            <a href="/" className="text-xl text-gray-300 font-semibold">Projects</a>
+                            <a href="/projects" className="text-xl text-gray-300 font-semibold">Projects</a>
                         </li>
                         <li className="p-2 ml-4">
-                            <a href="/" className="text-xl text-gray-300 font-semibold">Resources</a>
+                            <a href="/resources" className="text-xl text-gray-300 font-semibold">Resources</a>
                         </li>
                         <li className="p-2 ml-4">
-                            <a href="/" className="text-xl text-gray-300 font-semibold">Docs</a>
+                            <a href="/donate" className="text-xl text-gray-300 font-semibold">Donate</a>
                         </li>
                     </ul>
                     <a href="/contact" className="border-solid rounded-md border-2 border-gray-300 px-3 font-bold">Contact Me</a>
