@@ -44,13 +44,13 @@ export default function Home() {
                 <a class="inline-flex items-center justify-center border-4 border-gray-900 rounded-lg w-60 h-12 mr-4 mt-2 bg-green-400 hover:bg-green-700 text-white font-bold px-2 py-2" href="/contact">
                   Contact me
                 </a>
-                <a class="inline-flex items-center justify-center border-4 border-gray-900 rounded-lg w-60 h-12 bg-blue-400 hover:bg-sky-700 text-white font-bold mt-2 px-2 py-2" href="/projects">
+                <a class="inline-flex items-center justify-center border-4 border-gray-900 rounded-lg w-60 h-12 bg-blue-400 hover:bg-blue-700 text-white font-bold mt-2 px-2 py-2" href="/projects">
                   My Resume
                 </a>
               </nav>
-              <div className="logo mr-20">
+              <p className="logo mr-20">
                 <img src="https://res.cloudinary.com/tar-heel-dev-studio/image/upload/c_scale,q_auto:best,w_412/v1677220638/avatar_fvxxbc.png" alt="Andrew Weisbeck Avatar" />
-              </div>
+              </p>
             </div>
           </div>
 
