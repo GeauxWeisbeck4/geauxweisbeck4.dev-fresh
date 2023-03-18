@@ -1,4 +1,4 @@
-# fresh project
+# GeauxWeisbeck4.dev Version 2 Deno & Fresh
 
 ### Usage
 

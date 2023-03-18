@@ -1,5 +1,9 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPost, getPosts, Post } from "@/utils/posts.ts";
+import { Head } from "$fresh/runtime.ts";
+import Navbar from "../../components/Navbar.tsx";
+import Bloghead from "../../components/Bloghead.tsx";
+
 
 export const handler: Handlers<Post[]> = {
     async GET(_req, ctx) {
@@ -11,12 +15,18 @@ export const handler: Handlers<Post[]> = {
 export default function BlogPage(props: PageProps<Post[]>) {
     const posts = props.data;
     return (
+        <>
+        <Head>
+            <title>GeauxWeisbeck4.dev | Blog</title>
+        </Head>
+        <Navbar />
+        <Bloghead />
         <main className="max-w-screen-md px-4 pt-16 mx-auto">
-            <h1 className="text-5xl font-bold">Blog</h1>
+            <h1 className="text-5xl font-bold">From the Blog</h1>
             <div className="mt-8">
                 {posts.map((post) => <PostCard post={post} />)}
             </div>
-        </main>
+        </main></>
     );
 }
 

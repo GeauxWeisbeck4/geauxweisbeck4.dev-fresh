@@ -2,6 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import Navbar from "@/components/Navbar.tsx";
 
 
+
 export default function AboutPage() {
     return (
         <>
@@ -19,8 +20,15 @@ export default function AboutPage() {
 
 
                 </div>
+                <p class="logo mr-20">
+                  <img src="https://res.cloudinary.com/tar-heel-dev-studio/image/upload/v1662777703/andrewlisa.jpg" class="rounded-full w-80 h-80 ml-20" alt="andrew and lisa" />
+                </p>
+
             </div>
+
+
           </div>
+
         </>
     )
 }
