@@ -1,6 +1,6 @@
-# GeauxWeisbeck4.dev Version 2 Deno & Fresh
+# GeauxWeisbeck4.dev Version 2.1.1 Deno & Fresh
 
-
+This is the third rendition of my personal website.
 
 ### Usage
 

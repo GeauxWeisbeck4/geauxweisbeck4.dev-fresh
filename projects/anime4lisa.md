@@ -3,6 +3,7 @@ title: Anime 4 Lisa
 image: static\projectimg\geauxagilejs.png
 completed: 2023-03-05T14:00:00.00z
 snippet: This is an excerpt from the fifth Post
+tag: JavaScript
 ---
 
 # [GeauxAgile.js](https://geauxagilejs.netlify.app/)

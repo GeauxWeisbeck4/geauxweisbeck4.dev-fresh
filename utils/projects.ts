@@ -10,6 +10,7 @@ export interface Project {
     completed: Date;
     snippet: string;
     content: string;
+    tag: string;
 }
 
 // Get Projects
@@ -36,5 +37,6 @@ export async function getProject(slug: string): Promise<Project | null> {
         completed: new Date(attrs.completed),
         content: body,
         snippet: attrs.snippet,
+        tag: attrs.tag,
     };
 }
