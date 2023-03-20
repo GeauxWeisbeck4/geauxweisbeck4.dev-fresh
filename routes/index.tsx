@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar.tsx";
 import Features from "@/components/Features.tsx";
 import Projects from "@/components/Projects.tsx";
 import Blogpost from "@/components/Blogpost.tsx";
-import Contactform from "@/components/Contactform.tsx";
 import Footer from "@/components/Footer.tsx";
 
 export default function Home() {

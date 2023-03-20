@@ -7,10 +7,10 @@ export default function Footer() {
             <div class="w-full -mx-6 lg:w-2/5">
                 <div class="px-6">
                     <a href="/">
-                        <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
+                        <img class="w-auto h-7" src="" alt="" />
                     </a>
 
-                    <p class="max-w-sm mt-2 text-white dark:text-white">Join 31,000+ other and never miss out on new tips, tutorials, and more.</p>
+                    <p class="max-w-sm mt-2 text-white dark:text-white">Choose high quality web development, marketing, and design with GeauxWeisbeck4.dev.</p>
 
                     <div class="flex mt-6 -mx-2">
                         <a href="#"
