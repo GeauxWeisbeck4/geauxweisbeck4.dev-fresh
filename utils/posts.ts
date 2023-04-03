@@ -6,6 +6,7 @@ const DIRECTORY = "./posts";
 export interface Post {
     slug: string;
     title: string;
+    image: string;
     publishedAt: Date;
     snippet: string;
     content: string;
@@ -31,6 +32,7 @@ export async function getPost(slug: string): Promise<Post | null> {
     return{
         slug,
         title: attrs.title,
+        image: attrs.image,
         publishedAt: new Date(attrs.published_at),
         content: body,
         snippet: attrs.snippet,

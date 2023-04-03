@@ -1,15 +1,17 @@
 ---
 title: Anime 4 Lisa
-image: static\projectimg\geauxagilejs.png
+image: https://res.cloudinary.com/tar-heel-dev-studio/image/upload/c_scale,w_708/v1679342346/Screenshot_2023-03-20_at_12-58-52_RapidAPI_DevRel_Example_Anime_Suggestion_App_i2nwci_78b20b.png
 completed: 2023-03-05T14:00:00.00z
-snippet: This is an excerpt from the fifth Post
+snippet: I build this anime recommendation app for my fiance so she wouldn't get bored looking for new shows.
 tag: JavaScript
 ---
 
-# [GeauxAgile.js](https://geauxagilejs.netlify.app/)
+# Anime4Lisa
 
-![GeauxAgile.js Homepage](../static/projectimg/geauxagilejs.png)
+My fiance loves anime, but sometimes she has difficulty deciding which show she wants to watch next because of all the choices out there. That's why I made her this Anime recommendation app using the Anime DB Api.
 
-GeauxAgile.js is a work-in-progress, agile framework application that provides a website to plan out and execute weekly sprints and share work in public, somewhat like a digital garden but more structured.
+All she has to do is type in the show she just watched and Anime DB will feed through to the front end of the application and boom - Anime recommendation!
 
-I plan on automating many features on this platform and utilize AI to create service workers that carry out tasks that are planned out in the stories in each weekly sprint.
+## Visit Anime4Lisa
+
+[Anime4Lisa](https://anime4lisa.netlify.app)

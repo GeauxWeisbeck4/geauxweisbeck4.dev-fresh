@@ -19,10 +19,21 @@ export default function ProjectsPage(props: PageProps<Project[]>) {
             <title>GeauxWeisbeck4.dev | Projects</title>
         </Head>
         <Navbar />
-        <main className="max-w-screen-md px-4 pt-16 mx-auto">
-            <h1 className="text-5xl font-bold">Projects</h1>
-            <div className="mt-8">
-                {projects.map((project) => <ProjectCard project={project} />)}
+        <main className="w-[80] px-4 pt-16 mx-12 grid grid-cols-5 gap-3 mb-10">
+            <div>
+                <h2 class="text-xl font-semibold">Project Categories</h2>
+                <ul>
+                    <li><a class="hover:text-teal-400" href="/projects/web-development">Web Development</a></li>
+                    <li><a class="hover:text-teal-400" href="/projects/writing">Writing</a></li>
+                    <li><a class="hover:text-teal-400" href="/projects/design">Design</a></li>
+                </ul>
+            </div>
+            <div class="col-span-4">
+                <h1 className="text-5xl font-bold mb-4">Projects</h1>
+                <p class="text-large">These are some projects that I'm either currently working on or have completed in the past. Let me know if you have any questions about my portfolio!</p>
+                <div className="mt-8">
+                    {projects.map((project) => <ProjectCard project={project} />)}
+                </div>
             </div>
 
         </main>
@@ -33,8 +44,8 @@ export default function ProjectsPage(props: PageProps<Project[]>) {
 function ProjectCard(props: { project: Project }) {
     const { project } = props;
     return (
-        <div class="max-w-2xl overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
-            <img class="object-cover w-full h-64" src={project.image} alt={project.snippet} />
+        <div class="w-full overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 mt-8">
+            <img class="object-cover w-full h-72" src={project.image} alt={project.snippet} />
             <div class="p-6">
                 <div>
                     <span class="text-xs font-medium text-blue-600 uppercase dark:text-blue-400">{project.tag}</span>
@@ -42,7 +53,7 @@ function ProjectCard(props: { project: Project }) {
                     <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">{project.content}</p>
                 </div>
 
-                <div class="mt-4">
+                <div class="mt-4 w-10">
                     <div class="flex items-center">
                         <div class="flex items-center">
                             <img class="object-cover h-10 rounded-full" src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60" alt="Avatar" />

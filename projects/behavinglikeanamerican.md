@@ -1,14 +1,15 @@
 ---
 title: Behaving Like an American
-image: static\projectimg\geauxagilejs.png
-completed: 2023-03-05T14:00:00.00z
-snippet: This is an excerpt from the fifth Post
+image: https://res.cloudinary.com/tar-heel-dev-studio/image/upload/v1680210060/behavinglikeanamerican_uvwsy6.png
+completed: 2023-02-14T14:00:00.00z
+snippet: A website created for my research and behavioral economics research brand
+tag: WebDevelopment
 ---
 
-# [GeauxAgile.js](https://geauxagilejs.netlify.app/)
+# A behavioral economics, marketing, and business research brand
 
-![GeauxAgile.js Homepage](../static/projectimg/geauxagilejs.png)
+Behaving Like an American was initially created as a behavioral economics blog using WordPress and a drag and drop site editor. It has evolved into my marketing, psychology, and behavioral economics brand that is still in the early stages of development.
 
-GeauxAgile.js is a work-in-progress, agile framework application that provides a website to plan out and execute weekly sprints and share work in public, somewhat like a digital garden but more structured.
+This website was created with 11ty and a starter theme that I used called ["Fernfolio" by Tyler Roderick](https://github.com/TylerMRoderick/fernfolio-11ty-template). There are a few ways I am deciding on how to structure this business. I will likely add merchandise, a weekly blog, and whatever other ideas I can come up with.
 
-I plan on automating many features on this platform and utilize AI to create service workers that carry out tasks that are planned out in the stories in each weekly sprint.
+

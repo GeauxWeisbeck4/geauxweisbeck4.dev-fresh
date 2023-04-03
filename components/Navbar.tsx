@@ -4,7 +4,7 @@ export default function Navbar() {
           <header>
             <nav className="relative flex flex-wrap items-center px-20 justify-between justify-items-center list-none py-2">
               <div className="container-fluid w-full flex flex-wrap items-center">
-                <h1 className="text-3xl text-gray-700 font-bold text-center pt-4 mb-4"><a href="https://geauxweisbeck4.dev">@GeauxWeisbeck4</a></h1>
+                <h1 className="text-3xl text-gray-900 hover:text-white hover:underline font-bold text-center pt-4 mb-4"><a href="https://geauxweisbeck4.dev">@GeauxWeisbeck4</a></h1>
                     <ul className="flex pl-40 mr-auto text-white">
                         <li className="p-2 ml-4">
                             <a href="/" className="text-xl text-white hover:underline hover:text-gray-700 font-semibold hover:font-bold">Home</a>

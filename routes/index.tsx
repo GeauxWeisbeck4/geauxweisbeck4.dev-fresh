@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar.tsx";
 import Features from "@/components/Features.tsx";
 import Projects from "@/components/Projects.tsx";
 import Blogpost from "@/components/Blogpost.tsx";
+import Newsletterform from "@/components/Newsletterform.tsx";
 import Footer from "@/components/Footer.tsx";
 
 export default function Home() {
@@ -13,8 +14,8 @@ export default function Home() {
       </Head>
       <Navbar />
       {/* Hero Section */}
-      <div class="w-screen flex flex-col items-center justify-center h-auto">
-        <div class="flex pb-20 mt-14">
+      <div class="w-screen flex flex-col items-center justify-center h-auto px-20">
+        <div class="flex mt-14">
             <div class="flex-1 p-4 mx-auto max-w-screen-md">
               <h1 class="text-6xl font-bold mb-10 text-gray-900">Andrew Weisbeck</h1>
               <h2 class="text-3xl font-bold mt-2 mb-6 text-gray-600 max-w-xl">Full Stack Developer, Entrepreneur, and Content Creator</h2>
@@ -98,31 +99,13 @@ export default function Home() {
           {/* Featured Blog Posts */}
           <div class="pt-12">
             <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">From the Blog</h1>
-            <p class="mt-4 text-center text-gray-500 dark:text-gray-300">Some featured posts to check out, straight from the blog</p>
+            <p class="mt-4 text-center text-gray-900 dark:text-gray-300">Some featured posts to check out, straight from the blog</p>
             <Blogpost />
           </div>
           {/* Contact Form */}
           <section class="p-20">
-<div class="flex flex-col max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-48 pt-8">
-    <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-gray-700 md:dark:bg-gray-800">
-        <div class="px-6 py-6 md:px-8 md:py-0">
-            <h2 class="text-lg font-bold text-gray-700 dark:text-white md:text-gray-100">Sign Up For <span class="text-blue-600 dark:text-blue-400 md:text-blue-300">Geaux Weekly</span> Newsletter</h2>
-
-            <p class="mt-2 text-sm text-gray-50 dark:text-gray-50 md:text-gray-50">Each week you'll get updates, deals, n</p>
-        </div>
-    </div>
-
-    <div class="flex items-center justify-center pb-6 md:py-0 md:w-1/2">
-        <form>
-            <div class="flex flex-col p-1.5 overflow-hidden border rounded-lg dark:border-gray-600 lg:flex-row dark:focus-within:border-blue-300 focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300">
-                <input class="px-6 py-2 text-gray-700 placeholder-gray-500 bg-white outline-none dark:bg-gray-800 dark:placeholder-gray-400 focus:placeholder-transparent dark:focus:placeholder-transparent" type="text" name="email" placeholder="Enter your email" aria-label="Enter your email" />
-
-                <button class="px-4 py-3 text-sm font-medium tracking-wider text-gray-100 uppercase transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:bg-gray-600 focus:outline-none">subscribe</button>
-            </div>
-        </form>
-    </div>
-</div>
-</section>
+            <Newsletterform />
+          </section>
           <div class="pt-12">
             <Footer />
           </div>
