@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.10.5",
-    "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/plugin-users-permissions": "^4.10.5",
     "@strapi/strapi": "4.10.5",
     "better-sqlite3": "8.0.1",
-    "strapi-chatgpt": "^1.0.2"
+    "pg": "^8.11.0",
+    "pg-connection-string": "^2.6.0",
+    "sqlite3": "^5.1.6",
+    "strapi-chatgpt": "^1.0.2",
+    "strapi-provider-upload-cloudinary": "^3.6.11"
   },
   "author": {
     "name": "A Strapi developer"

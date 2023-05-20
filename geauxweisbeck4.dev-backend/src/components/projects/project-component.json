@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_projects_project_components",
+  "info": {
+    "displayName": "Project Component"
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}
